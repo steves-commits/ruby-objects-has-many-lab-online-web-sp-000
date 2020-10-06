@@ -10,13 +10,11 @@ class Post
     @@all << self
   end 
   
-   def save
-    @@all << self
+   def self.all
+     @@all
   end
   
-  def self.all
-    @@all
-  end
+  
   
   def author_name
     if @author == nil 
