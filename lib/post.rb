@@ -26,6 +26,7 @@ class Post
 end
 end
 
-  def 
+  def self.post_count
+    
   
 end 
