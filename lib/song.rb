@@ -19,7 +19,7 @@ class Song
   
   def artist_name
    if @artist 
-     return nil 
+     self.artist.name 
    else 
      @artist.name 
    end 
