@@ -21,7 +21,7 @@ class Song
    if @artist 
      self.artist.name 
    else 
-     @artist.name 
+     nil
    end 
  end
 end 
