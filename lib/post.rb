@@ -27,7 +27,7 @@ end
 end
 
   def self.post_count
-    @@all
+    @@post_count
   end
   
 end 
